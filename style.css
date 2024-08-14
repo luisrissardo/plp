@@ -1,0 +1,338 @@
+*{
+    transition: .5s;
+}
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Jura';
+}
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+    max-width: 100vw;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+:root{
+    --background-color: black;
+    --font-color: white;
+    color: white;
+}
+body{
+    background-image: url(img/rashid-1mvlXye0FsY-unsplash.jpg);
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--font-color);
+    padding: 0;
+    border: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+::-webkit-scrollbar{
+    background-color: black;
+}
+::-webkit-scrollbar-button{
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 0px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border: 2px black solid;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: gray;
+    border-radius: 50px;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0vw;
+    z-index: 2;
+    border: 1px black solid;
+    background-color: black;
+}
+header h1{ 
+    color: white;
+    font-family: 'Quicksand';
+    font-weight: 300;
+    font-style: italic;
+}
+.titleheader{
+    width: 50%;
+    height: 100%;
+    -background-color: red;
+    padding-left: 5%;
+}
+.inter{
+    color: #77EEEE;
+}
+header h1:hover{
+    cursor: pointer;
+    font-weight: 500;
+    transform: rotate(-1deg);
+}
+header:hover{
+    border-bottom: 1px white solid;
+}
+.menu-container-desktop{
+    -background-color: red;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 5%;
+}
+.menu-container-desktop ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+.menu-container-desktop ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: .5s;
+}
+.menu-container-desktop ul li a:hover{
+    font-size: 1.5rem;
+}
+#homepage{
+    background-image: url(img/images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 89vh;
+    display: flex;
+}
+.text-left{
+    -background-color: yellow;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.titulo-left{
+    font-size: 40px;
+    font-family: 'Quicksand';
+    font-weight: 300;
+    font-style: italic;
+    padding-left: 10%;
+}
+.text-left p{
+    padding: 0% 10% 5% 10%;
+    text-align: justify;
+}
+.negrito{ 
+    font-weight: 700;
+    text-shadow: 2px 2px black;
+}
+.botoes-inicio button{
+    width: 20%;
+    height: 100%;
+    margin-left: 10%;
+    background-color: transparent;
+    border: 1px white solid;
+    color: white;
+    font-style: italic;
+}
+.botoes-inicio button:hover{
+    background-color: white;
+    color: black;
+    border: 1px transparent solid;
+    border-radius: 20px;
+}
+button:hover{
+    cursor: pointer;
+}
+.botoes-inicio{
+    
+    height: 8%;
+    display: flex;
+}
+.botoes-inicio p{
+    color: white;
+}
+#sobre{
+    background-image: url(img/pexels-abby-chung-371167-1106468.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    -background-color: black;
+    overflow: hidden;
+}
+.letreiro{
+    font-family: 'Jura';
+    font-size: 50px;
+    font-weight: 300;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30rem;
+}
+.letreiro h1{
+    font-size: 45px;
+    color: gold;    
+    text-shadow: 1px 1px red;
+    font-style: italic;
+}
+.letreiro h2{
+    font-size: 45px;
+    text-shadow: 2px 2px black;
+}
+.bancos{
+    -background-color: red;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    height: 75%;
+}
+.bancos a{
+    -background-color: blue;
+    -border: 1px black solid;
+    padding-left: 5%;
+    height: 11%;
+    align-content: center;
+    transition: .5s;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+}
+a:hover{
+}
+/*.port:hover{
+    height: 100%;
+    background-image: url(img/Capa\ de\ matéria\ ou\ trabalho\ de\ português.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+.mat:hover{
+    height: 100%;
+    background-image: url(img/Free\ Vector\ _\ Hand\ drawn\ design\ scientific\ formulas.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px black ;
+}
+.hist:hover{
+    height: 100%;
+    background-image: url(img/Napoleon\'s\ Life—and\ Mysterious\ Death—in\ Exile\ _\ HISTORY.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.geo:hover{
+    height: 100%;
+    background-image: url(img/4aef666f-70b3-4c94-95dd-9b6fe8d4ab5d.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px black ;
+}
+.bio:hover{
+    height: 100%;
+    background-image: url(img/EL\ PAÍS\ Semanal\ en\ EL\ PAÍS.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.quim:hover{
+    height: 100%;
+    background-image: url(img/Pin\ de\ Panda\ en\ Dibujos\ en\ 2022\ _\ Fondos\ de\ quimica\,\ Plantillas\ de\ cubiertas\ de\ carpeta\,\ Fondos\ de\ pantalla\ de\ iphone.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fisi:hover{
+    height: 100%;
+    background-image: url(img/86c0ed51-ca12-4603-8c6b-a2eb0a7b6a5a.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.enem:hover{
+    height: 100%;
+    background-image: url(img/Como\ Cancelar\ Inscrição\ do\ Enem\ 2019\ -\ Veja\ como\ Fazer.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+.fuvest:hover{
+    height: 100%;
+    background-image: url(img/Laptop\ Desktop\ Wallpapers\ For\ Students.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+#synth{
+    background-image: url(img/pexels-polina-zimmerman-3747505.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+    overflow: hidden;
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+}
+.title-synth{
+    -background-color: red;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40rem;
+}
+.title-synth h1{
+    font-size: 45px;
+    text-shadow: 2px 2px black;
+}
+.title-synth h2{
+    font-size: 45px;
+    color: gold;
+    font-style: italic;
+    text-shadow: 1px 1px red;
+    text-align: right;
+}
+.synth-desc{
+    -background-color: red;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    font-size: 24px;
+    gap: 15%;
+}
+.synth-desc a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+}
+.synth-desc h1{
+    font-size: 45px;
+    margin-left: 5%;
+    font-style: italic;
+}
